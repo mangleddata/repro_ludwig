@@ -1,0 +1,1 @@
+horovodrun -np 2 --stall-check-shutdown-time-seconds 120 ludwig train --data_train_csv  train.csv --data_validation_csv  valid.csv --data_test_csv test.csv -mdf repro.yaml -uh --model_name repro -sspi 
